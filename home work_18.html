@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    max-width: 1200px;
+}
+h2{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.box{
+    background-color: orange;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+p{
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    transform: translate(-8%, -10%);
+    font-size: 25px;
+}
+input{
+    background-color: white;
+    width: 500px;
+    height: 30px;
+}
+.pop{
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    transform: translate(-8%, -40%);
+}
+.index{
+    width: 150px;
+    height: 40px;
+}
+.secondt{
+    position: absolute;
+    left: 15%;
+    top: 53%;
+    transform: translate(-15%, -53%);
+}
+.index1{
+    width: 150px;
+    height: 40px;
+}
+.eta{
+    position: absolute;
+    left: 3%;
+    top: 61%;
+    transform: translate(-3%, -61%);
+}
+.drink{
+width: 150px;
+height: 40px;
+}
+.young{
+position: absolute;
+left: 15%;
+top: 77%;
+transform: translate(-15%, -77%);
+}
+.foot{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 15%;
+    top: 90%;
+    transform: translate(-15%, -90%);
+    margin-top: 44px;
+}
+.feel{
+    position: absolute;
+    left: 3%;
+    top: 89%;
+}
+.chicken{
+    width: 1000px;
+    height: 70px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+        <h1 class="title">FTL: Прямая машина</h1>
+        <div class="box">
+            <h2>1</h2>
+        </div>
+        <p>Маршрут</p>
+        <h4>Откуда</h4>
+        <input type="text">
+        <h4>Куда</h4>
+        <input type="text">
+    </div>
+    </div>
+    <section>
+        <div class="container">
+        <div class="box">
+            <h2>2</h2>
+        </div>
+        <p class="pop">Транспорт</p>
+        <div class="second">
+        <h4>Грузоподъёмность</h4>
+        <input class="index" type="text">
+    </div>
+    <div class="secondt">
+        <h4>Способ погрузки</h4>
+        <input class="index1" placeholder="Задняя" type="text">
+    </div>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="box">
+                <h2>3</h2>
+            </div>
+            <p class="eta">Груз</p>
+            <input placeholder="Не выбран" type="text">
+            <div class="table">
+                <h4>Класс опасности</h4>
+                <input class="drink" placeholder="Класс 5 — Окисляющие вещества и органические перекиси
+                " type="text">
+            </div>
+            <div class="young">
+                <h4>Объявленная ценность, ₽</h4>
+                <input class="foot"type="text">
+            </div>
+            <input class="read" type="checkbox">
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="box">
+                <h2>4</h2>
+            </div>
+            <p class="feel">Время</p>
+            <h4>Когда прибыть на точку</h4>
+            <input placeholder="Адрес не указан" type="text">
+            <br>
+            <input placeholder="Адрес не указан" type="text">
+            <h4>Комментарий к заказу</h4>
+            <input class="chicken" placeholder="Укажите особенности въезда на территорию склада или подъезда к адресу" type="text">
+        </div>
+    </section>
+</body>
+</html>
